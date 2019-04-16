@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+
+    </title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      confirm("We are going to countdown by ten from one hundred.\n Click ok to continue.");
+      for(var i = 100; i >= 0; i = i - 10)
+      {
+        console.log(i);
+        if(i === 60)
+        {
+          i = i - 10
+        }else if(i <= 0)
+          {
+            alert("You made it! Check out the console log.");
+          }
+
+      }
+    </script>
+  </body>
+</html>
